@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assane Thiao - Portfolio</title>
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">AT</div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#experience" class="nav-link">Expériences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-wrap">
+                    <div class="profile-ring"></div>
+                    <img src="maphoto.jpg" alt="Assane Thiao" class="profile-img" id="profileImg"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="profile-placeholder">AT</div>
+                </div>
+                <p class="hero-greeting">Bonjour, je suis</p>
+                <h1 class="hero-name">Assane Thiao</h1>
+                <div class="typing-wrap">
+                    <span class="typing-text" id="typingText"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">Étudiant ingénieur en Télécommunications et Réseaux, préparant la dernière année de
+                    cycle ingénieur (Bac+5) à partir de septembre 2026</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Me contacter <span>→</span></a>
+                    <a href="#experience" class="btn btn-outline">Expériences Professionnelles</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title"> À propos de moi</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">
+                        Actuellement <strong>en fin de 2ème année de cycle ingénieur (Bac+4 équivalent Master
+                            1)</strong> à l'Institut Galilée - Université Sorbonne Paris Nord (USPN),
+                        je développe un fort intérêt pour l'Intelligence Artificielle et l'analyse de données appliquées
+                        aux systèmes informatiques et réseaux.
+                    </p>
+                    <p>
+                        Mon parcours m'a permis d'acquérir une solide expertise en <strong>développement
+                            informatique</strong>, en <strong>télécommunications</strong>,
+                        en <strong>traitement du signal et des données</strong>, ainsi qu'en <strong>technologies
+                            réseaux</strong>.
+                        J'ai travaillé sur des projets innovants, notamment le traitement d'images médicales par Deep
+                        Learning dans le cadre d'un stage, ainsi que le développement
+                        d'une plateforme touristique et le développement d'un chatbot qui parle la langue wolof (langue
+                        parlée au Sénégal) au sein d'une start-up, où j'occupe actuellement
+                        le poste de chargé de communication et de gestion de projet.
+                    </p>
+                    <p>
+
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-card">
+                            <span class="stat-num" data-target="4">0</span>
+                            <span class="stat-lbl">Années d'études supérieures</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-target="3">0</span>
+                            <span class="stat-lbl">Stages réalisés</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-target="10">0</span>
+                            <span class="stat-lbl">Technologies maîtrisées</span>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <h2 class="section-title lang-title">Langues</h2>
+
+                        <div class="stats-row">
+                            <div class="stat-card">
+                                <span class="stat-num">Anglais</span>
+                                <span class="stat-lbl">Intermédiaire (B1)</span>
+                            </div>
+
+                            <div class="stat-card">
+                                <span class="stat-num">Français</span>
+                                <span class="stat-lbl">Courant</span>
+                            </div>
+
+                            <div class="stat-card">
+                                <span class="stat-num">Wolof</span>
+                                <span class="stat-lbl">Courant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="about-edu">
+                    <h2 class="edu-title">Parcours Académique</h2>
+                    <div class="timeline">
+                        <div class="tl-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <span class="tl-date">2024 - Présent</span>
+                                <h4>Diplôme d'Ingénieur</h4>
+                                <p>Télécommunications et Réseaux</p>
+                                <span class="tl-school">Institut Galilée - Université Sorbonne Paris Nord (USPN) -
+                                    Villetaneuse (France)</span>
+                            </div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <span class="tl-date">2023 - 2024</span>
+                                <h4>Diplôme d'Ingénieur (1ère année)</h4>
+                                <p>Informatique, Télécoms et Réseaux</p>
+                                <span class="tl-school">Ecole Supérieure Polytechnique (ESP) - UCAD - Dakar
+                                    (Sénégal)</span>
+                            </div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <span class="tl-date">2021 - 2023</span>
+                                <h4>DUT Télécoms et Réseaux</h4>
+                                <p>Diplôme Universitaire de Technologie</p>
+                                <span class="tl-school">Ecole Supérieure Polytechnique (ESP) - UCAD - Dakar
+                                    (Sénégal)</span>
+                            </div>
+                        </div>
+
+                        <div class="tl-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <span class="tl-date">2019 - 2021</span>
+                                <h4>Baccalauréat Scientifique</h4>
+                                <p>Série S - Mathématiques, Sciences Physiques et Sciences de la Vie et de la Terre</p>
+                                <span class="tl-school">Lycée Touba Toul - Thiès (Sénégal)</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title ">Expériences Professionnelles</h2>
+            <div class="exp-grid">
+                <div class="exp-card reveal">
+                    <div class="exp-num">01</div>
+                    <div class="exp-icon">🧠</div>
+                    <h3>Stage technicien - Traitement d'images médicales par Deep Learning</h3>
+                    <span class="exp-company">L2TI - Laboratoire de Traitement et Transport de
+                        l'Information - Université Sorbonne Paris Nord (USPN)</span>
+                    <span class="exp-date">Juin 2025 - Août 2025</span>
+                    <p class="exp-desc">
+                        Amélioration de la qualité d'images médicales à faible dose de rayons X via des modèles de deep
+                        learning de débruitage.
+                    </p>
+
+                    <ul class="exp-tasks">
+                        <li>Adaptation d'un projet de recherche existant (CoreDiff)</li>
+                        <li>Mise en place de l'environnement (Conda, Google Colab GPU, installations des dépendances)
+                        </li>
+                        <li>Préparation et structuration des datasets médicaux</li>
+                        <li>Entraînement et test de modèles via checkpoints pré-entraînés</li>
+                        <li>Adaptation et exécution du code de recherche</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Anaconda</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">Google Colab</span>
+                    </div>
+                </div>
+
+                <div class="exp-card reveal">
+                    <div class="exp-num">02</div>
+                    <div class="exp-icon">🚀</div>
+
+                    <h3>Chargé de communication & gestion de projet</h3>
+                    <span class="exp-company">Wallu Group (Start-up) - Dakar</span>
+                    <span class="exp-date">Mai 2024 - Présent</span>
+
+                    <p class="exp-desc">
+                        Start-up étudiante d'ingénieurs développant des solutions numériques innovantes pour le Sénégal
+                        (tourisme, IA, IoT, data).
+                    </p>
+
+                    <ul class="exp-tasks">
+                        <li>Gestion de la communication interne et animation des réunions d'équipe</li>
+                        <li>Planification et suivi des tâches via Trello</li>
+                        <li>Rédaction et organisation des documents de projet</li>
+                        <li>Participation au développement de projets innovants (tourisme, IA, IoT)</li>
+                    </ul>
+
+                    <p class="exp-desc">
+                        Projets réalisés :
+                        <br>• <strong>Senegal-Rek</strong> : plateforme numérique pour le tourisme au Sénégal
+                        <br>• <strong>Tonetouma-Bot</strong> : chatbot en langue wolof
+                        <br>• <strong>Ndox-Mi</strong> : système IoT de suivi de niveau d'eau et facturation
+                        intelligente
+                    </p>
+
+                    <div class="badge-achievement">
+                        🏆 GovAthon 2024 : Demi-finaliste (Senegal-Rek) | GovAthon 2025 : finaliste 3e place nationale
+                        (Tonetouma-Bot)
+                    </div>
+
+                    <div class="tags">
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Trello</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">AI Chatbot</span>
+                    </div>
+                </div>
+
+                <div class="exp-card reveal">
+                    <div class="exp-num">03</div>
+                    <div class="exp-icon">📞</div>
+
+                    <h3>Stage de fin de DUT (diplôme universitaire de technologie) - Mise en place d'un Système VoIP
+                    </h3>
+                    <span class="exp-company">DGI-ESP - Dakar</span>
+                    <span class="exp-date">Mai 2023 - Juillet 2023</span>
+
+                    <p class="exp-desc">
+                        Conception et déploiement d'un système de diffusion publicitaire automatisé basé sur la VoIP
+                        (Asterisk / IVR).
+                    </p>
+
+                    <ul class="exp-tasks">
+                        <li>Conception d'une architecture VoIP basée sur Asterisk et protocoles SIP</li>
+                        <li>Configuration du système IVR (Interactive Voice Response)</li>
+                        <li>Déploiement et configuration du serveur de communication</li>
+                        <li>Réalisation de tests de performance et validation du système</li>
+                    </ul>
+
+                    <div class="tags">
+                        <span class="tag">VoIP</span>
+                        <span class="tag">Asterisk (PBX)</span>
+                        <span class="tag">IVR</span>
+                        <span class="tag">SIP</span>
+                        <span class="tag">Réseaux</span>
+                        <span class="tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator"></div>
+
+    <!-- Projects Section -->
+    <section class="section section-alt projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title ">Projets & Réalisations</h2>
+            <div class="exp-grid">
+                <div class="exp-card reveal">
+                    <div class="exp-num">01</div>
+                    <div class="exp-icon">🤖</div>
+
+                    <h3>Projet robotique - Coupe de France de Robotique</h3>
+                    <span class="exp-company">Institut Galilée - Université Sorbonne Paris Nord</span>
+                    <span class="exp-date">Janvier 2025 - Juin 2025</span>
+
+                    <p class="exp-desc">
+                        Conception et programmation de robots autonomes pour la Coupe de France de Robotique 2025
+                        (Robot-Rock-Tour). Missions de nos robots: : construction de gradins, déploiement de banderole,
+                        interaction avec les PAMIs, faire du show sur la scène,
+                        rangement d'éléments de jeu, et retour en zone d'arrivée à la fin du spectacle
+                    </p>
+
+                    <ul class="exp-tasks">
+                        <strong>Nos missions principales :</strong>
+                        <li>Développement d'un robot principal, de deux PAMIs et d'une Superstar-robot</li>
+                        <li>Programmation de scénarios autonomes incluant navigation, manipulation d'objets et
+                            coordination avec les PAMIs</li>
+                        <li>Optimisation de la stratégie pour atteindre jusqu'à 98 points en 100 secondes selon la règle
+                            du jeu</li>
+                        <li>Respect du cahier des charges et des contraintes de la compétition (terrain, dimensions,
+                            règles du jeu)</li>
+                    </ul>
+
+                    <div class="tags">
+                        <span class="tag">C</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">Électronique</span>
+                        <span class="tag">Robotique</span>
+                        <span class="tag">Capteurs</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="num"></span> Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">💻</span>
+                        <h3>Programmation</h3>
+                    </div>
+                    <div class="tag-cloud bordered-tags">
+                        <span class="stag">Python</span>
+                        <span class="stag">Java</span>
+                        <span class="stag">C/C++</span>
+                        <span class="stag">HTML</span>
+                        <span class="stag">CSS</span>
+                        <span class="stag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🤖</span>
+                        <h3>IA & Data Science</h3>
+                    </div>
+                    <div class="tag-cloud bordered-tags">
+                        <span class="stag">PyTorch</span>
+                        <span class="stag">TensorFlow</span>
+                        <span class="stag">NumPy</span>
+                        <span class="stag">Pandas</span>
+                        <span class="stag">Matplotlib</span>
+                        <span class="stag">Deep Learning</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🌐</span>
+                        <h3>Réseaux & Télécoms</h3>
+                    </div>
+                    <div class="tag-cloud bordered-tags">
+                        <span class="stag">TCP/IP</span>
+                        <span class="stag">OSPF</span>
+                        <span class="stag">BGP</span>
+                        <span class="stag">EIGRP</span>
+                        <span class="stag">4G/5G</span>
+                        <span class="stag">Wireshark</span>
+                        <span class="stag">GNS3</span>
+                        <span class="stag">VoIP</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">☁️</span>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="tag-cloud bordered-tags">
+                        <span class="stag">Azure</span>
+                        <span class="stag">Git / GitHub</span>
+                        <span class="stag">Linux</span>
+                        <span class="stag">VMware</span>
+                        <span class="stag">VirtualBox</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="certifications">
+        <div class="container">
+
+            <h2 class="section-title lang-title">Certifications</h2>
+
+            <div class="stats-row">
+
+                <div class="stat-card">
+                    <span class="stat-num">Comptabilité durable</span>
+                    <span class="stat-lbl">Février 2025</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-num">Cybersécurité</span>
+                    <span class="stat-lbl">Cisco Networking Academy - Décembre 2023</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-num">Networking Essentials</span>
+                    <span class="stat-lbl">Cisco Networking Academy - Février 2022</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title"><span class="num"></span> Contactez-moi</h2>
+            <p class="contact-intro">
+                N'hésitez pas à me contacter pour discuter d'opportunités ou de collaborations !
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:thiaoassanethiao@gmail.com" class="contact-card reveal">
+                    <div class="cc-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>thiaoassanethiao@gmail.com</p>
+                </a>
+                <a href="tel:+33753198708" class="contact-card reveal">
+                    <div class="cc-icon">📱</div>
+                    <h3>Téléphone</h3>
+                    <p>+33 7 53 19 87 08</p>
+                </a>
+                <a href="https://linkedin.com/in/assane-thiao-54a159278" target="_blank" class="contact-card reveal">
+                    <div class="cc-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>Assane Thiao</p>
+                </a>
+                <a href="https://github.com/assanethiao" target="_blank" class="contact-card reveal">
+                    <div class="cc-icon">🐙</div>
+                    <h3>GitHub</h3>
+                    <p>@assanethiao</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© 2025 Assane Thiao - Etudiant ingénieur en télécommunications et réseaux</p>
+            <p>“Gérez les infrastructures réseaux et optimisez les systèmes de communications de demain !”</p>
+            <div class="footer-links">
+                <a href="https://github.com/assanethiao" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/assane-thiao-54a159278" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
