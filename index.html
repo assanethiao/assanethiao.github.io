@@ -57,7 +57,7 @@
                     <span class="typing-text" id="typingText"></span><span class="cursor">|</span>
                 </div>
                 <p class="hero-desc">Élève ingénieur en Télécommunications et Réseaux, en dernière année du
-                    cycle ingénieur (Bac+5), à la recherche d'un stage de fin d'études dans les domaines des 
+                    cycle ingénieur (Bac+5), à la recherche d'un stage de fin d'études dans les domaines des
                     réseaux, de l'intelligence artificielle et des systèmes numériques.</p>
                 <div class="hero-btns">
                     <a href="#contact" class="btn btn-primary">Me contacter <span>→</span></a>
@@ -75,10 +75,10 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p class="about-lead">
-                       Actuellement <strong>élève ingénieur en dernière année du cycle ingénieur (Bac+5)
-                       </strong>à l'Institut Galilée - Université Sorbonne Paris Nord (USPN), spécialisé 
-                       en Télécommunications et Réseaux, je développe un fort intérêt pour l'Intelligence
-                       Artificielle et l'analyse de données appliquées aux systèmes informatiques et réseaux.
+                        Actuellement <strong>élève ingénieur en dernière année du cycle ingénieur (Bac+5)
+                        </strong>à l'Institut Galilée - Université Sorbonne Paris Nord (USPN), spécialisé
+                        en Télécommunications et Réseaux, je développe un fort intérêt pour l'Intelligence
+                        Artificielle et l'analyse de données appliquées aux systèmes informatiques et réseaux.
                     </p>
                     <p>
                         Mon parcours m'a permis d'acquérir une solide expertise en <strong>développement
@@ -338,13 +338,142 @@
     <section class="section section-alt projects-section" id="projects">
         <div class="container">
             <h2 class="section-title ">Projets & Réalisations</h2>
+
+            <div class="exp-card reveal">
+                <div class="exp-num">01</div>
+                <div class="exp-icon">📡</div>
+
+                <h3>Planification des réseaux cellulaires LTE avec le modèle de mobilité Netmob25 sous NS3</h3>
+
+                <span class="exp-company">
+                    Module Projet Thématique - Institut Galilée - Université Sorbonne Paris Nord
+                </span>
+
+                <span class="exp-date">
+                    Janvier 2026 - Avril 2026
+                </span>
+
+                <p class="exp-desc">
+                    Planification et simulation d'un réseau LTE sous NS-3 afin d'étudier
+                    les performances d'utilisateurs mobiles à l'aide du modèle de mobilité Netmob25.
+                    Analyse des métriques réseau telles que le débit, le délai, les pertes de paquets et 
+                    le mécanisme de handover entre stations de base.
+                </p> 
+
+                <ul class="exp-tasks">
+
+                    <strong>Nos Missions principales :</strong>
+
+                    <li>
+                        Conception et implémentation de plusieurs scénarios LTE sous NS-3
+                        intégrant des stations de base (eNodeB), des terminaux mobiles (UE)
+                        et différentes topologies réseau.
+                    </li>
+
+                    <li>
+                        Simulation de la mobilité des utilisateurs avec les modèles
+                        RandomWalk2dMobilityModel et Netmob25 afin de reproduire des
+                        déplacements réalistes dans un réseau cellulaire.
+                    </li>
+
+                    <li>
+                        Configuration des paramètres LTE (eNodeB, EPC, trafic UDP,
+                        handover A3-RSRP, mobilité, puissance et canaux radio)
+                        puis collecte automatique des métriques de performances.
+                    </li>
+
+                    <li>
+                        Évaluation du débit, du délai, des pertes de paquets,
+                        de la couverture radio et du mécanisme de handover
+                        dans différents scénarios comportant jusqu'à 50 utilisateurs mobiles.
+                    </li>
+
+                    <li>
+                        Développement d'outils d'analyse en Python permettant
+                        d'exploiter les résultats des simulations (CSV, graphiques
+                        et visualisation des trajectoires des utilisateurs).
+                    </li>
+
+                </ul>
+
+                <div class="tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">NS-3</span>
+                    <span class="tag">LTE</span>
+                    <span class="tag">Netmob25</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Réseaux Mobiles</span>
+                    <span class="tag">Simulation</span>
+                    <span class="tag">QoS</span>
+                    <span class="tag">Handover</span>
+                </div>
+
+            </div>
+
+
+            <div class="exp-card reveal">
+                <div class="exp-num">02</div>
+                <div class="exp-icon">📈</div>
+
+                <h3>Prédiction des prix immobiliers avec Machine Learning</h3>
+                <span class="exp-company">Personal Projet Data Science - Dataset Kaggle House Prices</span>
+                <span class="exp-date">Août 2026</span>
+
+                <p class="exp-desc">
+                    Développement d'un modèle de Machine Learning supervisé capable de prédire
+                    le prix de vente de maisons à partir de caractéristiques immobilières.
+                    Mise en place d'un pipeline complet de Data Science incluant l'analyse des données,
+                    le prétraitement, l'entraînement du modèle et l'évaluation des performances.
+                </p>
+
+                <ul class="exp-tasks">
+                    <strong>Missions principales :</strong>
+
+                    <li>
+                        Analyse exploratoire du dataset House Prices :
+                        étude des variables, statistiques descriptives et identification des valeurs manquantes
+                    </li>
+
+                    <li>
+                        Préparation des données avec gestion des valeurs manquantes,
+                        encodage One-Hot des variables catégorielles et construction d'un pipeline Scikit-Learn
+                    </li>
+
+                    <li>
+                        Développement d'un modèle de régression linéaire multiple
+                        pour estimer le prix des propriétés immobilières
+                    </li>
+
+                    <li>
+                        Évaluation du modèle avec les métriques MAE, RMSE et R² :
+                        obtention d'un score R² de 0.87 sur les données de validation
+                    </li>
+
+                    <li>
+                        Génération de prédictions sur le jeu de test et création d'un fichier
+                        submission.csv compatible avec la plateforme Kaggle
+                    </li>
+                </ul>
+
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">Matplotlib</span>
+                    <span class="tag">Scikit-Learn</span>
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Régression Linéaire</span>
+                    <span class="tag">Data Science</span>
+                </div>
+            </div>
+
+
             <div class="exp-grid">
                 <div class="exp-card reveal">
-                    <div class="exp-num">01</div>
+                    <div class="exp-num">03</div>
                     <div class="exp-icon">🤖</div>
 
                     <h3>Projet robotique - Coupe de France de Robotique</h3>
-                    <span class="exp-company">Institut Galilée - Université Sorbonne Paris Nord</span>
+                    <span class="exp-company">Module Projet Thématique - Institut Galilée - Université Sorbonne Paris Nord</span>
                     <span class="exp-date">Janvier 2025 - Juin 2025</span>
 
                     <p class="exp-desc">
@@ -374,60 +503,6 @@
                     </div>
                 </div>
 
-                <div class="exp-card reveal">
-                    <div class="exp-num">02</div>
-                    <div class="exp-icon">📈</div>
-
-                    <h3>Prédiction des prix immobiliers avec Machine Learning</h3>
-                    <span class="exp-company">Personal Projet Data Science - Kaggle House Prices</span>
-                    <span class="exp-date">Août 2026</span>
-
-                    <p class="exp-desc">
-                        Développement d'un modèle de Machine Learning supervisé capable de prédire
-                        le prix de vente de maisons à partir de caractéristiques immobilières.
-                        Mise en place d'un pipeline complet de Data Science incluant l'analyse des données,
-                        le prétraitement, l'entraînement du modèle et l'évaluation des performances.
-                    </p>
-
-                    <ul class="exp-tasks">
-                        <strong>Missions principales :</strong>
-
-                        <li>
-                            Analyse exploratoire du dataset House Prices :
-                            étude des variables, statistiques descriptives et identification des valeurs manquantes
-                        </li>
-
-                        <li>
-                            Préparation des données avec gestion des valeurs manquantes,
-                            encodage One-Hot des variables catégorielles et construction d'un pipeline Scikit-Learn
-                        </li>
-
-                        <li>
-                            Développement d'un modèle de régression linéaire multiple
-                            pour estimer le prix des propriétés immobilières
-                        </li>
-
-                        <li>
-                            Évaluation du modèle avec les métriques MAE, RMSE et R² :
-                            obtention d'un score R² de 0.87 sur les données de validation
-                        </li>
-
-                        <li>
-                            Génération de prédictions sur le jeu de test et création d'un fichier
-                            submission.csv compatible avec la plateforme Kaggle
-                        </li>
-                    </ul>
-
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Pandas</span>
-                        <span class="tag">Matplotlib</span>
-                        <span class="tag">Scikit-Learn</span>
-                        <span class="tag">Machine Learning</span>
-                        <span class="tag">Régression Linéaire</span>
-                        <span class="tag">Data Science</span>
-                    </div>
-                </div>
 
             </div>
         </div>
